@@ -1,6 +1,6 @@
 package model;
 
-public class RedHatDuck extends Duck {//驯化野鸭
+public class RedHatDuck extends Duck {
 	public RedHeadDuck() {
 		QuackBehavior = new MuteQuack();
 		FlyBehavior = new FlyNoWay();
